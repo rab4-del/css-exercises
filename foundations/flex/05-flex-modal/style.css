@@ -22,7 +22,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
-.icon {
+.icon { 
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -67,3 +67,32 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.icon {
+  flex-shrink: 0;
+}
+
+.modal {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.text {
+  margin-bottom: 16px;
+}
+/*Make container without ! button and then make 
+the whole thing flex no wrap. Then make header with
+close-button and then do that together. and then margin the rest
+lightwork no react
+*/
+
+
